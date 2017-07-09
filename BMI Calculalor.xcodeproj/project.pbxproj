@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826582F11F1283C30005C125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 826582F01F1283C30005C125 /* main.m */; };
+		826582F41F1283C30005C125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 826582F31F1283C30005C125 /* AppDelegate.m */; };
+		826582F71F1283C30005C125 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826582F61F1283C30005C125 /* ViewController.m */; };
+		826582FA1F1283C30005C125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826582F81F1283C30005C125 /* Main.storyboard */; };
+		826582FC1F1283C30005C125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826582FB1F1283C30005C125 /* Assets.xcassets */; };
+		826582FF1F1283C30005C125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826582FD1F1283C30005C125 /* LaunchScreen.storyboard */; };
+		8265830A1F1283C30005C125 /* BMI_CalculalorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 826583091F1283C30005C125 /* BMI_CalculalorTests.m */; };
+		826583151F1283C30005C125 /* BMI_CalculalorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 826583141F1283C30005C125 /* BMI_CalculalorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		826583061F1283C30005C125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826582E41F1283C30005C125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826582EB1F1283C30005C125;
+			remoteInfo = "BMI Calculalor";
+		};
+		826583111F1283C30005C125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826582E41F1283C30005C125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826582EB1F1283C30005C125;
+			remoteInfo = "BMI Calculalor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		826582EC1F1283C30005C125 /* BMI Calculalor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculalor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826582F01F1283C30005C125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		826582F21F1283C30005C125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		826582F31F1283C30005C125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		826582F51F1283C30005C125 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		826582F61F1283C30005C125 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		826582F91F1283C30005C125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		826582FB1F1283C30005C125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		826582FE1F1283C30005C125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		826583001F1283C30005C125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826583051F1283C30005C125 /* BMI CalculalorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI CalculalorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826583091F1283C30005C125 /* BMI_CalculalorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_CalculalorTests.m; sourceTree = "<group>"; };
+		8265830B1F1283C30005C125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826583101F1283C30005C125 /* BMI CalculalorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI CalculalorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826583141F1283C30005C125 /* BMI_CalculalorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_CalculalorUITests.m; sourceTree = "<group>"; };
+		826583161F1283C30005C125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826582E91F1283C30005C125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826583021F1283C30005C125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8265830D1F1283C30005C125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		826582E31F1283C30005C125 = {
+			isa = PBXGroup;
+			children = (
+				826582EE1F1283C30005C125 /* BMI Calculalor */,
+				826583081F1283C30005C125 /* BMI CalculalorTests */,
+				826583131F1283C30005C125 /* BMI CalculalorUITests */,
+				826582ED1F1283C30005C125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826582ED1F1283C30005C125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826582EC1F1283C30005C125 /* BMI Calculalor.app */,
+				826583051F1283C30005C125 /* BMI CalculalorTests.xctest */,
+				826583101F1283C30005C125 /* BMI CalculalorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826582EE1F1283C30005C125 /* BMI Calculalor */ = {
+			isa = PBXGroup;
+			children = (
+				826582F21F1283C30005C125 /* AppDelegate.h */,
+				826582F31F1283C30005C125 /* AppDelegate.m */,
+				826582F51F1283C30005C125 /* ViewController.h */,
+				826582F61F1283C30005C125 /* ViewController.m */,
+				826582F81F1283C30005C125 /* Main.storyboard */,
+				826582FB1F1283C30005C125 /* Assets.xcassets */,
+				826582FD1F1283C30005C125 /* LaunchScreen.storyboard */,
+				826583001F1283C30005C125 /* Info.plist */,
+				826582EF1F1283C30005C125 /* Supporting Files */,
+			);
+			path = "BMI Calculalor";
+			sourceTree = "<group>";
+		};
+		826582EF1F1283C30005C125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				826582F01F1283C30005C125 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		826583081F1283C30005C125 /* BMI CalculalorTests */ = {
+			isa = PBXGroup;
+			children = (
+				826583091F1283C30005C125 /* BMI_CalculalorTests.m */,
+				8265830B1F1283C30005C125 /* Info.plist */,
+			);
+			path = "BMI CalculalorTests";
+			sourceTree = "<group>";
+		};
+		826583131F1283C30005C125 /* BMI CalculalorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				826583141F1283C30005C125 /* BMI_CalculalorUITests.m */,
+				826583161F1283C30005C125 /* Info.plist */,
+			);
+			path = "BMI CalculalorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826582EB1F1283C30005C125 /* BMI Calculalor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826583191F1283C30005C125 /* Build configuration list for PBXNativeTarget "BMI Calculalor" */;
+			buildPhases = (
+				826582E81F1283C30005C125 /* Sources */,
+				826582E91F1283C30005C125 /* Frameworks */,
+				826582EA1F1283C30005C125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMI Calculalor";
+			productName = "BMI Calculalor";
+			productReference = 826582EC1F1283C30005C125 /* BMI Calculalor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		826583041F1283C30005C125 /* BMI CalculalorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8265831C1F1283C30005C125 /* Build configuration list for PBXNativeTarget "BMI CalculalorTests" */;
+			buildPhases = (
+				826583011F1283C30005C125 /* Sources */,
+				826583021F1283C30005C125 /* Frameworks */,
+				826583031F1283C30005C125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826583071F1283C30005C125 /* PBXTargetDependency */,
+			);
+			name = "BMI CalculalorTests";
+			productName = "BMI CalculalorTests";
+			productReference = 826583051F1283C30005C125 /* BMI CalculalorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8265830F1F1283C30005C125 /* BMI CalculalorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8265831F1F1283C30005C125 /* Build configuration list for PBXNativeTarget "BMI CalculalorUITests" */;
+			buildPhases = (
+				8265830C1F1283C30005C125 /* Sources */,
+				8265830D1F1283C30005C125 /* Frameworks */,
+				8265830E1F1283C30005C125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826583121F1283C30005C125 /* PBXTargetDependency */,
+			);
+			name = "BMI CalculalorUITests";
+			productName = "BMI CalculalorUITests";
+			productReference = 826583101F1283C30005C125 /* BMI CalculalorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826582E41F1283C30005C125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BH_Lin;
+				TargetAttributes = {
+					826582EB1F1283C30005C125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VH8FYD6YYB;
+						ProvisioningStyle = Automatic;
+					};
+					826583041F1283C30005C125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VH8FYD6YYB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 826582EB1F1283C30005C125;
+					};
+					8265830F1F1283C30005C125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VH8FYD6YYB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 826582EB1F1283C30005C125;
+					};
+				};
+			};
+			buildConfigurationList = 826582E71F1283C30005C125 /* Build configuration list for PBXProject "BMI Calculalor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 826582E31F1283C30005C125;
+			productRefGroup = 826582ED1F1283C30005C125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826582EB1F1283C30005C125 /* BMI Calculalor */,
+				826583041F1283C30005C125 /* BMI CalculalorTests */,
+				8265830F1F1283C30005C125 /* BMI CalculalorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826582EA1F1283C30005C125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826582FF1F1283C30005C125 /* LaunchScreen.storyboard in Resources */,
+				826582FC1F1283C30005C125 /* Assets.xcassets in Resources */,
+				826582FA1F1283C30005C125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826583031F1283C30005C125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8265830E1F1283C30005C125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826582E81F1283C30005C125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826582F71F1283C30005C125 /* ViewController.m in Sources */,
+				826582F41F1283C30005C125 /* AppDelegate.m in Sources */,
+				826582F11F1283C30005C125 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826583011F1283C30005C125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8265830A1F1283C30005C125 /* BMI_CalculalorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8265830C1F1283C30005C125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826583151F1283C30005C125 /* BMI_CalculalorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		826583071F1283C30005C125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826582EB1F1283C30005C125 /* BMI Calculalor */;
+			targetProxy = 826583061F1283C30005C125 /* PBXContainerItemProxy */;
+		};
+		826583121F1283C30005C125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826582EB1F1283C30005C125 /* BMI Calculalor */;
+			targetProxy = 826583111F1283C30005C125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		826582F81F1283C30005C125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826582F91F1283C30005C125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		826582FD1F1283C30005C125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826582FE1F1283C30005C125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826583171F1283C30005C125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		826583181F1283C30005C125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8265831A1F1283C30005C125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VH8FYD6YYB;
+				INFOPLIST_FILE = "BMI Calculalor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bh.ios.BMI-Calculalor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8265831B1F1283C30005C125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VH8FYD6YYB;
+				INFOPLIST_FILE = "BMI Calculalor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bh.ios.BMI-Calculalor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8265831D1F1283C30005C125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VH8FYD6YYB;
+				INFOPLIST_FILE = "BMI CalculalorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bh.ios.BMI-CalculalorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Calculalor.app/BMI Calculalor";
+			};
+			name = Debug;
+		};
+		8265831E1F1283C30005C125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VH8FYD6YYB;
+				INFOPLIST_FILE = "BMI CalculalorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bh.ios.BMI-CalculalorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Calculalor.app/BMI Calculalor";
+			};
+			name = Release;
+		};
+		826583201F1283C30005C125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VH8FYD6YYB;
+				INFOPLIST_FILE = "BMI CalculalorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bh.ios.BMI-CalculalorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BMI Calculalor";
+			};
+			name = Debug;
+		};
+		826583211F1283C30005C125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VH8FYD6YYB;
+				INFOPLIST_FILE = "BMI CalculalorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bh.ios.BMI-CalculalorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BMI Calculalor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826582E71F1283C30005C125 /* Build configuration list for PBXProject "BMI Calculalor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826583171F1283C30005C125 /* Debug */,
+				826583181F1283C30005C125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826583191F1283C30005C125 /* Build configuration list for PBXNativeTarget "BMI Calculalor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8265831A1F1283C30005C125 /* Debug */,
+				8265831B1F1283C30005C125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8265831C1F1283C30005C125 /* Build configuration list for PBXNativeTarget "BMI CalculalorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8265831D1F1283C30005C125 /* Debug */,
+				8265831E1F1283C30005C125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8265831F1F1283C30005C125 /* Build configuration list for PBXNativeTarget "BMI CalculalorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826583201F1283C30005C125 /* Debug */,
+				826583211F1283C30005C125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826582E41F1283C30005C125 /* Project object */;
+}
