@@ -4,8 +4,10 @@
 
 ### DEMO
 <a href="https://www.youtube.com/watch?v=nA0QAvzIGog" target="_blank">
-	<img src="video.png" width="auto" height="auto">
+	<img src="./pictures/demo.gif" style="height: 480px; width: auto"/>
 </a>
 
 ### Illustration
-<img src="demo.png" width="auto" height="auto">
+<a href="">
+	<img src="./demo.png"/>
+</a>
